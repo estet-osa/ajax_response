@@ -1,5 +1,59 @@
-window.onload = function () {
+window.onload = function(){
+
+
+
+
+
 
     console.log('JAVASCRIPT is comming');
 
+
+
+
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
