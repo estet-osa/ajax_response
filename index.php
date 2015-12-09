@@ -1,24 +1,24 @@
 <!doctype html>
 
-<html lang="en">
-	<link rel="stylesheet" href="/css/style.css">
-	<title>ТЗ меню</title>
+<html lang="ru">
+
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+	<title>RESPONSE</title>
 </head>
+
 <body>
 
-<div class="tab_wrapper">
-    <ul class="tab_list">
-        <li><a href="/"><span>item 1</span></a></li>
-        <li><a href="/"><span>item 2</span></a></li>
-        <li class="active"><a href="/"><span>item some text 3</span></a></li>
-        <li><a href="/"><span>item 5</span></a></li>
-    </ul>
-</div>
+    <div class="send">
+        <button id="btn">Получить ответ</button>
+    </div>
 
+    <table id="response-tbl" class="tbl">
+        <tbody></tbody>
+    </table>
 
+<script src="js/main.js" type="text/javascript"></script>
 
 </body>
 

@@ -1,3 +1,2 @@
-# This is XSLT project
+# parse AJAX request
 
-Я не понял какую роль в ТЗ играет JAVASCRIPT, по этому выслаю версию без него.

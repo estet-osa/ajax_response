@@ -3,53 +3,24 @@ li{list-style:none}
 a{text-decoration:none}
 html,body{height:100%;font-family:'Century Gothic',sans-serif;width:100%}
 
+.send{
+    width: 250px;
+    margin: 150px auto 0;
+}
+.send > button#btn{
+    width: 250px;
+    height: 50px;
+}
 
-.tab_wrapper{
-    width: 550px;
-    margin: 150px auto;
+.tbl{
+    display: none;
+    width: 90%;
+    border: #CCC solid 1px;
+    margin: 50px auto 0;
 }
-ul.tab_list:after{
-    content: '';
-    display: block;
-    clear: both;
+.tbl tr > td{
+    padding: 10px;
+    font-size: 15px;
+    border: #CCC solid 1px;
 }
-ul.tab_list{
-    border-left: #E0E0E0 solid 1px;
-}
-ul.tab_list > li{
-    float: left;
-    position: relative;
-    border-top: #E0E0E0 solid 1px;
-    border-bottom: #E0E0E0 solid 2px;
-}
-ul.tab_list > li span{
-    display: block;
-    margin: 0 0 0 20px;
-}
-ul.tab_list > li > a:after{
-    content: '';
-    display: block;
-    width: 20px;
-    height: inherit;
-    position: absolute;
-    top: -1px;
-    bottom: -2px;
-    right: -20px;
-    z-index: 100;
-    background: inherit;
-    border-top: #E0E0E0 solid 1px;
-    border-right: #E0E0E0 solid 1px;
-    border-bottom: #E0E0E0 solid 2px;
-    border-top-right-radius: 15px 100%;
-}
-ul.tab_list > li.active a{
-    background: #FFF !important;
-}
-ul.tab_list li > a{
-    display: block;
-    padding: 15px 25px;
-    background: #EFFCFE;
-    position: relative;
-    color: #7D8C92;
-}
-ul.tab_list li:hover a{background: #FFF;}
+.block{display:block !important}
